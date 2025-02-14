@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto+Mono:wght@400&display=swap');
+
+/* Estilos globais */
+body {
+    background: radial-gradient(circle, #1A2A6C, #000428);
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #FF6F00;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+/* Botões */
+.button-hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.button-hover:hover {
+    transform: scale(1.05);
+}
+
+/* Cores */
+.btn-orange { background-color: #FF6F00; }
+.btn-blue { background-color: #1A2A6C; }
+.btn-green { background-color: #A1A1A6; }
+.btn-red { background-color: #FF6F00; }
+.btn-purple { background-color: #FF6F00; }
+
+/* Footer */
+footer {
+    color: #A1A1A6;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
